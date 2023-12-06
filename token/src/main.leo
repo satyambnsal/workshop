@@ -34,6 +34,18 @@ program token.aleo {
             amount: amount,
         };
     }
+    transition burn_public(public amount: u64) {
+        return then finalize(self.caller, amount);
+    } 
+
+    finalize burn_public(public sender: address, public amount: u64) {
+        let sender_amount: u64 = Mapping::get_or_use(account, sender, 0u64);  
+        Mapping::set(account, sender, sender_amount - amount);
+    }
+
+
+    
+
 
     /* Transfer */
     transition transfer_public(public receiver: address, public amount: u64) {
