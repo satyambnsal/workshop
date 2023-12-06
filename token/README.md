@@ -4,7 +4,9 @@
 ## Summary
 
 A transparent & shielded custom token in Leo.
-Proof of comp<img width="1440" alt="Screenshot 2023-12-06 at 5 07 59 PM" src="https://github.com/satyambnsal/workshop/assets/13951843/b5588934-eb34-4b5c-a04e-1ddc801d6af8">
+### Proof of completion
+
+<img width="1440" alt="Screenshot 2023-12-06 at 5 07 59 PM" src="https://github.com/satyambnsal/workshop/assets/13951843/b5588934-eb34-4b5c-a04e-1ddc801d6af8">
 letion:
 
 ## How to Run
